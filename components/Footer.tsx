@@ -1,11 +1,10 @@
-
 import { Box, Text } from '@chakra-ui/react';
 import dayjs from 'dayjs';
 
 const Footer = () => {
   return (
-    <Box textAlign="center" p={4} bg="gray.800" color="white">
-      <Text>© {dayjs().year()} Bhargav Gandhi. All rights reserved.</Text>
+    <Box as="footer" textAlign="center" p={4} bg="brand.800" color="whiteAlpha.900">
+      <Text fontSize="sm">© {dayjs().year()} Bhargav Gandhi. All rights reserved.</Text>
     </Box>
   );
 };
