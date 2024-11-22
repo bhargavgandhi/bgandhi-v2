@@ -1,0 +1,32 @@
+{
+  "name": "bhargav-gandhi-portfolio",
+  "version": "1.0.0",
+  "private": true,
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint . --ext .js,.jsx,.ts,.tsx",            
+  "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix", 
+  "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"", 
+  "test": "jest",                                 
+  "test:watch": "jest --watch"                          
+},
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "dayjs": "^1.11.13",
+    "framer-motion": "^10.12.5",
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "@types/react": "^18.3.12",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "typescript": "^5.6.3"
+  }
+}
